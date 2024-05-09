@@ -3,7 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agent</title>
-
+    <title>Jen Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
+<body>
+    <header class="navigation-container">
+        <div class="icon-navigation"></div>
+
+        <nav>
+            <button type="button" id="home-btn">Home</button>
+            <button>Package</button>
+            <button>Call Us</button>
+        </nav>
+    </header>
+ 
+    
+    <header class="header-content">
+        <h1>Today's Best Travel Offer</h1>
+        <h3>Travel Safe, Save Happiness</h3>
+    </header>
+    
+    <header>
+        <div class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="https://static1.evcdn.net/images/reduction/355607_w-3840_h-2160_q-70_m-crop.jpg" alt="Slide 1">
+                <div class="offer-text">Offer 25%</div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="https://wallpapercave.com/wp/wp4200965.jpg" alt="Slide 2">
+                <div class="offer-text">Offer 10%</div>
+              </div>
+              
+              <div class="carousel-item">
+                <img src="https://i.natgeofe.com/k/6a90cf0a-6d14-443c-8786-c76bf1803b87/belgium-ghent-channel_16x9.jpg?w=1200" alt="Slide 3">
+                <div class="offer-text">Offer 5%</div>
+              </div>
+            </div>
+            
+            <div class="carousel-button prev" onclick="moveSlide(-1)">‹</div>
+            <div class="carousel-button next" onclick="moveSlide(1)">›</div>
+        </div>
+
+        <div class="sgn-up-container">
+            <div class="form-container">
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="country">Country:</label>
+                  <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                  </select>
+                </div>
+                <button type="submit" class="submit-btn">Sign Up</button>
+              </form>
+    </header>
+
+    <header class="header-tr-rev">
+        <h1>Travel Review</h1>
+    </header>
+    
+    <article class="content-container">
+        <section class="core-content">
+            
+            <div class="review-panel">
+                <div class="review">
+                  <img src="https://media.licdn.com/dms/image/D4E03AQHyPrW-Eq8BaQ/profile-displayphoto-shrink_200_200/0/1711886718403?e=2147483647&v=beta&t=50ViYjZ_fg4g2aB1F7Of4DjhMipCP_6GzpZSU3LpvEk" alt="Profile Picture">
+                  <div class="name">Ihsanul Amiin</div>
+                  <p>"Amazing experience! The sights were breathtaking, and the locals were incredibly friendly."</p>
+                </div>
+                
+                <div class="review">
+                  <img src="https://media.licdn.com/dms/image/D5603AQGtGKTQaeCA1A/profile-displayphoto-shrink_200_200/0/1668768812273?e=2147483647&v=beta&t=G0b51JeBmDkjGIv2aKIeJ5IdSYuywYjh1DcZP0jXSl0" alt="Profile Picture">
+                  <div class="name">Pradika Danang</div>
+                  <p>"This trip exceeded all my expectations. I can't wait to go back and explore more."</p>
+                </div>
+                
+                <div class="review">
+                  <img src="https://media.licdn.com/dms/image/D5603AQEpzC-p4M5stQ/profile-displayphoto-shrink_800_800/0/1696383443062?e=2147483647&v=beta&t=Ut7rey_q0iA9e4XPcP854kLB4nXBi9mNjebGi5K47y4" alt="Profile Picture">
+                  <div class="name">Halwin Esa</div>
+                  <p>"Absolutely loved every moment of my journey. It was a life-changing adventure."</p>
+                </div>
+                
+                <div class="review">
+                    <img src="https://media.licdn.com/dms/image/D5603AQF9OFMXoS8xYA/profile-displayphoto-shrink_800_800/0/1689173436090?e=2147483647&v=beta&t=c5TSlhiXmCxmcaQsdgmUyp3L3p-pFBQyJ7FIEcaua8c" alt="Profile Picture">
+                    <div class="name">Muhammad Jaini Rasyid</div>
+                    <p>"Incredible landscapes and delicious food. I would recommend this destination to anyone."</p>
+                  </div>
+        </section>
+
+        <section class="content-our-package">
+            <h1>Our Package</h1>
+        </section>
+
+        <div class="container">
+            <div class="package">
+                <img src="https://afar.brightspotcdn.com/dims4/default/5af1313/2147483647/strip/true/crop/3000x1592+0+323/resize/1440x764!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb2%2Ff4%2F9a1ebe3f427f8e5eb937f8df8998%2Ftravelguides-maldives-videomediastudioeurope-shutterstock.jpg" alt="Maldives">
+                <h2>Tropical Paradise Retreat</h2>
+                <p>Destination: Maldives</p>
+                <p>Duration: 7 days</p>
+                <p>Highlights: Crystal-clear waters, luxurious overwater bungalows, snorkeling, sunset cruises.</p>
+                <p>Price: $3000 per person</p>
+                <a href="#" class="button">Book Now</a>
+            </div>
+            <div class="package">
+                <img src="https://img.homejournal.com/202203/621ef4618ea78.jpg" alt="European Adventure">
+                <h2>European Adventure</h2>
+                <p>Destinations: Paris, Rome, Barcelona</p>
+                <p>Duration: 10 days</p>
+                <p>Highlights: Eiffel Tower, Colosseum, Sagrada Familia, local cuisine, art and history.</p>
+                <p>Price: $4000 per person</p>
+                <a href="#" class="button">Book Now</a>
+            </div>
+            <div class="package">
+                <img src="https://www.serengeti.com/assets/img/serengeti-national-park.jpg" alt="Safari Expedition">
+                <h2>Safari Expedition</h2>
+                <p>Destination: Serengeti National Park, Tanzania</p>
+                <p>Duration: 5 days</p>
+                <p>Highlights: Big Five safari, Maasai cultural experience, breathtaking landscapes.</p>
+                <p>Price: $2500 per person</p>
+                <a href="#" class="button">Book Now</a>
+            </div>
+            <div class="package">
+                <img src="https://deih43ym53wif.cloudfront.net/pagoda-inthanon-chiang-mai-thailand-shutterstock_236815570_16a9871927.jpeg" alt="Asian Discovery">
+                <h2>Asian Discovery</h2>
+                <p>Destinations: Tokyo, Kyoto, Bangkok</p>
+                <p>Duration: 12 days</p>
+                <p>Highlights: Temples, bustling city life, traditional tea ceremonies, street food markets.</p>
+                <p>Price: $4500 per person</p>
+                <a href="#" class="button">Book Now</a>
+            </div>
+            
+        </div>
+    </article>
+
+    <footer class="footer">
+        <p>
+            <a href="#">Privacy</a>
+            <a href="#">About Us</a>
+            <a href="#">Copyright</a>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
 </html>

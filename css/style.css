@@ -1,1 +1,298 @@
 /* Ini Css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-container {
+    background-color: rgb(94, 197, 245);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.icon-navigation {
+    background-image: url(../assets/Vanamo_Logo.png);
+    border: 1px solid rgb(133, 203, 250);
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.navigation-container>nav>button {
+    height: 32px;
+    border: 1px solid rgb(94, 197, 245);
+    background-color: rgb(255, 255, 255);
+}
+
+.content-container>header {
+    text-align: center;
+}
+
+.header-content>h1 {
+    text-align: center;
+    color: rgb(94, 197, 245);
+}
+
+.header-content>h3 {
+    text-align: center;
+    color: rgb(94, 197, 245);
+}
+.carousel {
+    width: 100%;
+    margin: 50px;
+    max-width: 800px;
+    max-height: 800px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    position: relative;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .sgn-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    right: 100px;
+    left: 900px;
+    bottom: 100px;
+    top: 100px
+  }
+  
+  .form-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(94, 197, 245);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .submit-btn:hover {
+    background-color: rgb(94, 197, 245);
+  }
+
+.core-content {
+    display: flex;
+}
+
+.core-item {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 18px;
+}
+
+.core-item>header>h2 {
+    text-align: center;
+    
+}
+
+
+
+.item-right {
+    background-color: rgb(94, 197, 245);
+    border: 0;
+    border-radius: 8px;
+    height: 340px;
+}
+
+.item-left {
+    background-color: rgb(94, 197, 245);
+    border: 0;
+    border-radius: 8px;
+    height: 340px;
+}
+
+
+.content-our-package {
+    align-content: center;
+    background-color: rgb(94, 197, 245);
+    width: 100%;
+}
+
+.content-our-package>h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 20px;
+}
+
+.package {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(94, 197, 245);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.package img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .package {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .package {
+        flex: 100%;
+    }
+}
+
+.review-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .review {
+    width: 23%;
+    padding: 20px;
+    border: 1px solid rgb(94, 197, 245);
+    border-radius: 5px;
+    background-color: rgb(94, 197, 245);
+    margin: 5px;
+  }
+  .review img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-size: cover;
+  }
+  .review p {
+    font-size: 14px;
+    color: white;
+  }
+
+  .name {
+    font-size: 16px;
+    margin-top: 5px;
+    color: white
+  }
+
+  .header-tr-rev {
+    align-content: center;
+    background-color: rgb(94, 197, 245);
+    width: 100%;
+    margin: 10px;
+}
+
+.header-tr-rev>h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white
+}
+
+.footer {
+    background-color: rgb(94, 197, 245);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    right: 13.9%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
